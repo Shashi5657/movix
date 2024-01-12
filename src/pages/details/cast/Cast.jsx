@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import "./style.scss";
 import Img from "../../../components/lazyLoadImage/Img";
 import avatar from "../../../assets/avatar.png";
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../../components/contentWrapper/Contentwraper";
 
 const Cast = ({ data, loading }) => {
   const { url } = useSelector((state) => state.home);
@@ -20,7 +20,6 @@ const Cast = ({ data, loading }) => {
   };
   return (
     <div className="castSection">
-      
       <ContentWrapper>
         <div className="sectionHeading">Top Cast</div>
         {!loading ? (

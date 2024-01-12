@@ -7,8 +7,7 @@ import { fetchDataFromApi } from "../../utils/api";
 import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 import noResults from "../../assets/no-results.png";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
-
+import ContentWrapper from "../../components/contentWrapper/Contentwraper";
 
 const SearchResult = () => {
   const [data, setData] = useState(null);
@@ -52,7 +51,6 @@ const SearchResult = () => {
     <div className="sultsPage">
       {loading && <Spinner initial={true} />}
       {!loading && (
-        
         <ContentWrapper>
           {data?.results?.length > 0 ? (
             <>

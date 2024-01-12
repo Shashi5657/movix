@@ -13,7 +13,7 @@ import CircleRating from "../circleRating/CircleRating";
 import Genres from "../genres/Genres";
 
 import "./style.scss";
-import ContentWrapper from "../contentWrapper/ContentWrapper";
+import ContentWrapper from "../contentWrapper/Contentwraper";
 // import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 const Carousel = ({ data, loading, endpoint, title }) => {
@@ -49,7 +49,6 @@ const Carousel = ({ data, loading, endpoint, title }) => {
 
   return (
     <div className="carousel">
-
       <ContentWrapper>
         {title && <div className="carouselTitle">{title}</div>}
         <BsFillArrowLeftCircleFill

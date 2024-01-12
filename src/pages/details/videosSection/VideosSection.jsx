@@ -3,8 +3,7 @@ import "./style.scss";
 import VideoPopup from "../../../components/videoPopup/VideoPopups";
 import Img from "../../../components/lazyLoadImage/Img";
 import { PlayIcon } from "../Playbtn";
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
-
+import ContentWrapper from "../../../components/contentWrapper/Contentwraper";
 
 const VideosSection = ({ data, loading }) => {
   const [show, setShow] = useState(false);
@@ -22,7 +21,6 @@ const VideosSection = ({ data, loading }) => {
 
   return (
     <div className="videosSection">
-      
       <ContentWrapper>
         <div className="sectionHeading">Official Videos</div>
         {!loading ? (

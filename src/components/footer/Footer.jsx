@@ -7,14 +7,12 @@ import {
 } from "react-icons/fa";
 
 import "./style.scss";
-import ContentWrapper from "../contentWrapper/ContentWrapper";
+import ContentWrapper from "../contentWrapper/Contentwraper";
 // import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 const Footer = () => {
   return (
     <footer className="footer">
-
-      
       <ContentWrapper>
         <ul className="menuItems">
           <li className="menuItem">Terms Of Use</li>

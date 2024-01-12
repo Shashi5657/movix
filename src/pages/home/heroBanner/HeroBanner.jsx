@@ -5,7 +5,7 @@ import "./style.scss";
 
 import useFetch from "../../../hooks/useFetch";
 import Img from "../../../components/lazyLoadImage/Img";
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../../components/contentWrapper/Contentwraper";
 
 const HeroBanner = () => {
   const [background, setBackground] = useState("");
@@ -36,7 +36,7 @@ const HeroBanner = () => {
       )}
 
       <div className="opacity-layer"></div>
-      
+
       <ContentWrapper>
         <div className="heroBannerContent">
           <span className="title">Welcome.</span>

@@ -8,7 +8,7 @@ import useFetch from "../../hooks/useFetch";
 import { fetchDataFromApi } from "../../utils/api";
 import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../components/contentWrapper/Contentwraper";
 
 let filters = {};
 
@@ -96,7 +96,6 @@ const Explore = () => {
 
   return (
     <div className="explorePage">
-      
       <ContentWrapper>
         <div className="pageHeader">
           <div className="pageTitle">
