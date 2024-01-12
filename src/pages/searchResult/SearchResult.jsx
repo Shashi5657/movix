@@ -11,7 +11,7 @@ import noResults from "../../assets/no-results.png";
 import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 
 
-const sult = () => {
+const SearchResult = () => {
   const [data, setData] = useState(null);
   const [pageNum, setPageNum] = useState(1);
   const [loading, setLoading] = useState(false);
@@ -85,4 +85,4 @@ const sult = () => {
   );
 };
 
-export default sult;
+export default SearchResult;
