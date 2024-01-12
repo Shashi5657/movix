@@ -20,6 +20,7 @@ const Cast = ({ data, loading }) => {
   };
   return (
     <div className="castSection">
+      
       <ContentWrapper>
         <div className="sectionHeading">Top Cast</div>
         {!loading ? (

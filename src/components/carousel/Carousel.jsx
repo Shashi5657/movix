@@ -14,6 +14,7 @@ import Genres from "../genres/Genres";
 
 import "./style.scss";
 import ContentWrapper from "../contentWrapper/ContentWrapper";
+// import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 const Carousel = ({ data, loading, endpoint, title }) => {
   const carouselContainer = useRef();
@@ -48,6 +49,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
 
   return (
     <div className="carousel">
+
       <ContentWrapper>
         {title && <div className="carouselTitle">{title}</div>}
         <BsFillArrowLeftCircleFill

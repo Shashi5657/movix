@@ -4,7 +4,6 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import Select from "react-select";
 
 import "./style.scss";
-
 import useFetch from "../../hooks/useFetch";
 import { fetchDataFromApi } from "../../utils/api";
 import MovieCard from "../../components/movieCard/MovieCard";
@@ -97,6 +96,7 @@ const Explore = () => {
 
   return (
     <div className="explorePage">
+      
       <ContentWrapper>
         <div className="pageHeader">
           <div className="pageTitle">

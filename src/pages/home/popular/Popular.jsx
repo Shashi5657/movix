@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import Carousel from "../../../components/carousel/Carousel";
 import SwitchTabs from "../../../components/switchTabs/SwitchTabs";
-
 import useFetch from "../../../hooks/useFetch";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 
@@ -17,6 +16,7 @@ const Popular = () => {
 
   return (
     <div className="carouselSection">
+      
       <ContentWrapper>
         <span className="carouselTitle">What's Popular</span>
         <SwitchTabs data={["Movies", "TV Shows"]} onTabChange={onTabChange} />

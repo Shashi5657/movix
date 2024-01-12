@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 
 import "./style.scss";
-
 import { fetchDataFromApi } from "../../utils/api";
 import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
@@ -53,6 +52,7 @@ const SearchResult = () => {
     <div className="sultsPage">
       {loading && <Spinner initial={true} />}
       {!loading && (
+        
         <ContentWrapper>
           {data?.results?.length > 0 ? (
             <>

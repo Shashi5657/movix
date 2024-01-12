@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 import "./style.scss";
 
 import useFetch from "../../../hooks/useFetch";
-
 import Img from "../../../components/lazyLoadImage/Img";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 
@@ -37,6 +36,7 @@ const HeroBanner = () => {
       )}
 
       <div className="opacity-layer"></div>
+      
       <ContentWrapper>
         <div className="heroBannerContent">
           <span className="title">Welcome.</span>
