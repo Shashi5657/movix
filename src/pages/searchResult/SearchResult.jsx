@@ -5,12 +5,13 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import "./style.scss";
 
 import { fetchDataFromApi } from "../../utils/api";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 import noResults from "../../assets/no-results.png";
+import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 
-const SearchResult = () => {
+
+const sult = () => {
   const [data, setData] = useState(null);
   const [pageNum, setPageNum] = useState(1);
   const [loading, setLoading] = useState(false);
@@ -49,7 +50,7 @@ const SearchResult = () => {
   }, [query]);
 
   return (
-    <div className="searchResultsPage">
+    <div className="sultsPage">
       {loading && <Spinner initial={true} />}
       {!loading && (
         <ContentWrapper>
@@ -84,4 +85,4 @@ const SearchResult = () => {
   );
 };
 
-export default SearchResult;
+export default sult;
