@@ -11,6 +11,8 @@ import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 
+
+
 let filters = {};
 
 const sortbyData = [
